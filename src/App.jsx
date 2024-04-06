@@ -5,18 +5,18 @@ import Page3 from './pages/Page3'
 
 const App = () => {
 
-  const router =createBrowserRouter([
+  const router = createBrowserRouter([
     {
-      path:"/",
-      element:<HomePage/>
+      path: "/",
+      element: <HomePage/>
     },
     {
-      path:"Page2",
-      element:<Page2/>
+      path: "Page2",
+      element: <Page2 />
     },
     {
-      path:"Page3",
-      element:<Page3/>
+      path: "Page3",
+      element: <Page3/>
     }
   ])
 
